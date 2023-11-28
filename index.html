@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Kalkulator BMI</h1>
+        <p>Wpisz dane i wylicz swoje BMI. Wynik określi proporcję wzrostu do wagi. Umożliwia sprawdzenie, czy nasza masa ciała jest optymalna i obliczenie odpowiedniej wartości kalorycznej diety.</p>
+
+        <label for="height">Wzrost w Centymetrach</label><br>
+        <input type="text" id="heightInput"><br>
+        <label for="weight">Waga w Kilogramach</label><br>
+        <input type="text" id="weightInput"><br>
+        <button id="calculateButton">Oblicz</button>
+
+        <div id="resultDiv" hidden="true">
+            <hr>
+            Twój wskaźnik BMI to <span id="bmiSpan"></span>.
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
