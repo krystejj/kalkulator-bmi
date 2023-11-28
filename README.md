@@ -10,6 +10,6 @@ Pobiera od użytkownika wzrost w centymetrach oraz wagę w kilogramach a następ
 Interfejs w formie strony internetowej stworzony w HTML, CSS i JavaScript.
 
 ### Wersja
-Aktualna wersja aplikacji to `0.1.0-alpha`.
+Aktualna wersja aplikacji to `0.1.1-alpha`.
 
 Dziennik zmian znajduje się w pliku [CHANGELOG.md](CHANGELOG.md).
